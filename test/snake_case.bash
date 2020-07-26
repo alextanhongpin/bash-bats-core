@@ -9,3 +9,6 @@ function is_snake_case() {
 function to_snake_case() {
 	echo $1 | sed s/-/_/g
 }
+
+# Uncomment this to expose the function.
+#to_snake_case $1
